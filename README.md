@@ -1,7 +1,6 @@
 # IBM-Project-11953-1659361281
 
-![smiley-mascot-blood-bag-dressed-as-a-super-hero-vector-32613159](https://user-images.githubusercontent.com/113909912/200378867-0f8d88b7-f102-464d-a3ee-6ea9182bd4fa.jpg)
-**Plasma Donor Application**
+![smiley-mascot-blood-bag-dressed-as-a-super-hero-vector-32613159](https://user-images.githubusercontent.com/113909912/200378867-0f8d88b7-f102-464d-a3ee-6ea9182bd4fa.jpg)  **Plasma Donor Application**
 
 
 **_TEAM MEMBERS_** 
@@ -10,4 +9,4 @@
 
 
 
-_CHARUMATHI R                     KARTHIGA M                      LATHA K                       ZEBA KAUSAR R_
+_1.CHARUMATHI R 2.KARTHIGA M 3.LATHA K 4. ZEBA KAUSAR R_
