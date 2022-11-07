@@ -4,14 +4,16 @@
 
 *Plasma Donor Application*
 
-
-![imgbin-teamwork-team-leader-teamwork-four-person-reaching-out-and-jigsaw-puzzle-illustration-UkxD1Dd92wgyJtejYR4Ac4Njc-removebg-preview](https://user-images.githubusercontent.com/113909912/200377189-7546d6dd-3599-4895-b149-623ceefdf82b.png)
 TEAM MEMBERS
 
-1.CHARUMATHI R
 
-2.KARTHIGA M
+![imgbin-teamwork-team-leader-teamwork-four-person-reaching-out-and-jigsaw-puzzle-illustration-UkxD1Dd92wgyJtejYR4Ac4Njc-removebg-preview](https://user-images.githubusercontent.com/113909912/200377189-7546d6dd-3599-4895-b149-623ceefdf82b.png)
 
-3.LATHA K
 
-4.ZEBA KAUSAR R
+CHARUMATHI R
+
+KARTHIGA M
+
+LATHA K
+
+ZEBA KAUSAR R
