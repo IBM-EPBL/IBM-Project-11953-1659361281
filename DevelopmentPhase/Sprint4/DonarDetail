@@ -3,17 +3,17 @@
 <link rel="stylesheet" href="css/bootstrap.min.css" />
 <script src="js/bootstrap.min.js"></script>
 
+
+
+
+    <div style="margin: 50px 0px 50px 0px ; border: 2px solid black;">
   <a href="index.php"><li>  Home </li> </a>
   <a href="donor.php"><li class='active'>  Donors  </li></a>
   <a href="registration.php" target="_blank"><li> Register </li> </a>
   <a href="rules.php"><li> Rules  </li> </a>
   <a href="login.php"><li>  Login   </li></a>
 </ul>
-
-
-    <div style="margin: 50px 0px 50px 0px ; border: 2px solid black;">
-
-
+<center>
 <h1> Donor Profile </h1>
 <?php $sql="select * from user where id='$_REQUEST[id]' ";
 $res=mysql_query($sql);
@@ -25,7 +25,6 @@ $arr=mysql_fetch_array($res);
 <td></td>
 </br></br>
 </tr>
-
 <table style="text-align: center; margin: 15px 0px 0px 0px; font-family: times new roman; font-size: 18px" class="table table-hover">
 <input type="text" name="Name" placeholder="Name" required /><br>
 <input type="text" name="Name" placeholder="Father Name" required /><br>
@@ -36,5 +35,6 @@ $arr=mysql_fetch_array($res);
 <input type="text" name="Name" placeholder="Email" required /><br>
 <input type="text" name="Name" placeholder="Already a donor?" required /><br>
 </table>
-
+ <button type="submit" class="btn btn-primary" id="button_registration_submit">Submit</button>
 </div>
+</center>
