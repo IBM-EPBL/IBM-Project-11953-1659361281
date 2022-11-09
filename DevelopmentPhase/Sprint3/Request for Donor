@@ -325,7 +325,7 @@ echo '<input type="radio" class="radio2" name="gender" value="Female" checked><s
 
 <span>
 <input type="checkbox" name="terms" id="checkbox" required >
-</span><p>I agree to have my contact details broadcasted to the registered donors of PGHS.net</p>
+</span><p>I agree to have my contact details broadcasted to the registered donors of CLKZ.net</p>
 <div class="btnn">
 <input type="submit" name="submit" value="Update">
 <input type="reset" name="submit" value="Reset">
