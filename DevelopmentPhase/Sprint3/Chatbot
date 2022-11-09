@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <title>Chatbot</title>
-  <script>
+  <head>
+    <title>CHATBOT</title>
+    <script>
   window.watsonAssistantChatOptions = {
     integrationID: "3b214ae8-6eba-404e-85be-63772e4c2fef", // The ID of this integration.
     region: "eu-gb", // The region your integration is hosted in.
@@ -16,139 +15,77 @@
     document.head.appendChild(t);
   });
 </script>
+    <style>
+        body{
+          background: rgb(255, 255, 255);
+          height: 553px;
+          text-align: center;
+          font-family: cursive;
+        }
+      
+        h3{
+          color: rgb(6, 241, 238);
+          font-size: 40px;
+        }
+      
+        input{
+          border: 2px;
+          border-style: groove;
+          border-radius: 7px;
+          padding-top: 8px;
+          padding-left: 8px;
+          padding-bottom: 8px;
+          padding-right: 8px;
+          border-color: rgb(0, 255, 251);
+          height: 25px;
+          width:400px;
+        }
+        button{
+          border: 2px;
+          border-radius: 10px;
+          padding-top: 8px;
+          padding-left: 8px;
+          padding-bottom: 8px;
+          padding-right: 8px;
+          border-style: groove;
+          width: 90px;
+          opacity: 90%;
+          border-color: rgb(0, 247, 255);
+          cursor:pointer;
+        }
 
-  <style>
-    body {
-      background: rgb(255, 255, 255);
-      height: 553px;
-      text-align: center;
-      font-family: cursive;
-    }
+        .right{
+          width:50%;
+          float: right;
+        }
 
-    h3 {
-      color: rgb(6, 241, 238);
-      font-size: 40px;
-    }
-
-    .normal
-    {
-      border: 2px;
-      border-style: groove;
-      border-radius: 7px;
-      padding-top: 8px;
-      padding-left: 8px;
-      padding-bottom: 8px;
-      padding-right: 8px;
-      border-color: rgb(0, 0, 0);
-      height: 25px;
-      width: 400px;
-    }
-
-    button {
-      border: 2px;
-      border-radius: 10px;
-      padding-top: 8px;
-      padding-left: 8px;
-      padding-bottom: 8px;
-      padding-right: 8px;
-      border-style: groove;
-      width: 90px;
-      opacity: 90%;
-      border-color: rgb(0, 0, 0);
-      cursor: pointer;
-    }
-
-    .right {
-      width: 50%;
-      float: right;
-    }
-
-    .left {
-      width: 50%;
-      float: left;
-    }
-
-    p {
-    text-align: left;
-    padding-left: 7px;
-}
-
-    .address {
-      border: 2px;
-      border-style: groove;
-      border-radius: 7px;
-      padding-top: 8px;
-      padding-left: 8px;
-      padding-bottom: 8px;
-      padding-right: 8px;
-      border-color: rgb(0, 0, 0);
-      height: 95px;
-      width: 395px;
-    }
-
-    .req_cont {
-    margin-top: 50px;
-    width: 40%;
-    border: 1px solid #9c9c9c;
-    border-radius: 9px;
-    box-shadow: 4px 3px 11px 0px grey;
-    background-color: #ff4848;
-}
-    .req_cont_main {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .bottom_py {
-      width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    }
-    .form{
-     display:flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content:center;
-    }
-  </style>
-</head>
-
-<body>
-  <div class="req_cont_main">
-    <div class="req_cont">
-
-        <h3>APPLY FOR PLASMA DONATION</h3>
-        <form method="post" class="form">
-
-
-          <input class="normal" type="text" name="name" placeholder="Name" required /><br>
-          <input class="normal" type="email" name="email" placeholder="Email" required /><br>
-          <input class="normal" type="number" name="mobile" placeholder="Mobile" required /><br>
-          <input class="normal" type="number" name="age" placeholder="Age" required /><br>
-          <input class="normal" type="text" name="sex" placeholder="Gender" required /><br>
-
-
-
-          <input class="normal" type="text" name="blood_group" placeholder="Blood Group" required /><br>
-       
-          <textarea class="address" name="address" placeholder="Address" required ></textarea><br>
-  
-          <input class="normal" type="text" name="covid" placeholder="Date tested covid positive in this format yyyy-mm-dd" required /><br>
-
-
-          <button style="text-align: center;" type="submit">Request</button>
-        </form>
-        <div class="bottom_py">
-          <p style="color: rgb(27, 161, 27);">success</p>
-          <p style="color: rgb(214, 25, 25);">error</p>
-        </div>
- 
+        .left{
+          width: 50%;
+          float: left;
+        }
+    </style>
+  </head>
+  <body>
+    <h3>PLASMA REQUEST</h3>
+    <form method="post">
+    <div class="right">
+        <input type="text" name="blood_group" placeholder="Blood Group" required /><br><br>
+        <input type="number" name="aadhar" placeholder="Aadhar" required /><br><br>
+        <input type="text" name="state" placeholder="State" required /><br><br>
+        <input type="text" name="city" placeholder="City" required /><br><br>
+        <input type="password" name="password" placeholder="Password" required /><br><br>
     </div>
-  </div>
-</body>
-
-</html>
+    <div class="left">
+        <input type="text" name="name" placeholder="Name" required /><br><br>
+        <input type="email" name="email" placeholder="Email" required /><br><br>
+        <input type="number" name="mobile" placeholder="Mobile" required /><br><br>
+        <input type="number" name="age" placeholder="Age" required /><br><br>
+        <input type="text" name="gender" placeholder="Gender" required /><br><br>
+    </div>
+      <button type="submit">Apply</button>
+    </form>
+    <p style="color: rgb(27, 161, 27);">success</p>
+    <p style="color: rgb(214, 25, 25)">error</p>
+    <a href="/logout">Logout</a>
+  </body>
+</html>>
